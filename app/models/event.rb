@@ -10,4 +10,6 @@ class Event < ActiveRecord::Base
             length: { maximum: 50, too_long: "%{count} characters is the maximum allowed." }
 
   validates_presence_of :eventable
+  
 end
+
