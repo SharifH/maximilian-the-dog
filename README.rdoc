@@ -1,3 +1,5 @@
+web-app that matches 'Experts' to users' learning needs for one-off sessions.  An example would be a company that needs an hour-long Lunch Presentation on MongoDB to keep their employee's skills fresh.  Another example could be a student looking for a mentor in Rails for a days worth of tutoring.  Users (ie. companies or individuals) would be able to search for Experts based on skills, view the expert's info and availability, and then 'request' certain dates within that for the expert to mentor/lecture/present/what-have-you.  
+
 
 MODEL
 
