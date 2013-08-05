@@ -1,16 +1,4 @@
-Hey guys,
 
-First, Tod, I apologize for not being on Hipchat after we got off the phone.  Right after we hung out, we decided it was time for a food break, and I accidentally texted the wrong person to let them know.  
-
-After chatting about the project, we decided to pivot slightly to create a web-app that matches 'Experts' to users' learning needs for one-off sessions.  An example would be a company that needs an hour-long Lunch Presentation on MongoDB to keep their employee's skills fresh.  Another example could be a student looking for a mentor in Rails for a days worth of tutoring.  Users (ie. companies or individuals) would be able to search for Experts based on skills, view the expert's info and availability, and then 'request' certain dates within that for the expert to mentor/lecture/present/what-have-you.  
-
-This is just a general overview, and we can talk more about the details tomorrow.  Below are some tasks we're working on tonight to have ready for tomorrow.  Tod, we're still going to use the Date-Picker UI and would be grateful if you could continue experimenting with that to be able to implement it into the views.
-
-See you guys tomorrow :)
-Donielle
-
-
-To Do List for Tonight:
 MODEL
 
 User - Matt
