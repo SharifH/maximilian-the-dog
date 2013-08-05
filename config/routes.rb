@@ -3,6 +3,14 @@ MaximilianTheDog::Application.routes.draw do
   root :to => 'home#index'
   resources :events, :skills
 
+  get '/signup' => 'users#new'
+  match '/signout', to: 'sessions#destroy', via: :delete
+  get'/signin' => 'sessions#new'
+  
+  get '/forgotpassword' => 'users#forgotpassword'
+  post '/password_reset' => 'users#password_reset'
+  get '/resetpassword/' => 'users#reset'
+  get '/not_found' => 'users#not_found'
 
 
   # The priority is based upon order of creation:
