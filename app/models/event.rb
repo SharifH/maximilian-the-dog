@@ -1,5 +1,5 @@
 class Event < ActiveRecord::Base
-  attr_accessible :title, :description, :eventable_id
+  attr_accessible :title, :description, :eventable_id, :eventable_type
 
   #can belong to expert, user, or skill - need to reflect this in those models
   belongs_to :eventable, polymorphic: true

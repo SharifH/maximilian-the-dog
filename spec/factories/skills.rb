@@ -2,5 +2,6 @@
 
 FactoryGirl.define do
   factory :skill do
+    tag 'being_awesome'
   end
 end
